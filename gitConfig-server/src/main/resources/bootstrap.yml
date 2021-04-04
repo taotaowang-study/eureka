@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gitConfig-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/taotaowang-study/eureka-conf
+          username: taotaowang-study
+          password: wangtaotao520@
+#          default-label: master #配置文件分支
+          search-paths: conf  #配置文件所在根目录

@@ -1,0 +1,13 @@
+server:
+  port: 8013
+
+spring:
+  application:
+    name: consumer-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8011/eureka/
+
+
