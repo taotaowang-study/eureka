@@ -1,0 +1,16 @@
+server:
+  port: 8019
+
+spring:
+  application:
+    name: gateway-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8011/eureka/
+zuul:
+  routes:
+    client:
+      path: /hystrix/**
+      service-id: eureka-consumer-ribbon-hystrix

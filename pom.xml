@@ -17,6 +17,10 @@
         <module>ribbon-server</module>
         <module>feign-server</module>
         <module>gitConfig-server</module>
+        <module>eureka-client</module>
+        <module>eureka-consumer-ribbon-hystrix</module>
+        <module>gateway-server</module>
+        <module>demo</module>
     </modules>
 
     <properties>
